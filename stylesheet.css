@@ -1,0 +1,53 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+	margin:0;
+	padding: 0;
+}
+#main-content {
+	background-color: black;
+}
+
+.navbar-brand h1 {/* Restaurant name */
+color: #557c3e;
+font-size: 1.5em;
+text-shadow: 1px 1px 1px #222;
+margin-top: 0;
+margin-bottom: 0;
+}
+#menu {
+	font-size: 2em;
+	font-weight: bolder;
+	color: red;
+	padding-bottom: 30px;
+}
+h2 {
+	font-weight: 100px;
+	}
+
+#chicken {
+	background-color: yellow;
+	margin: auto;
+
+
+}
+
+#beef {
+	background-color: red;
+}
+#sushi {
+	background-color: green;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .iconbar {border: 1px solid #61122f;}
+
+
+
+@media (max-width: 767px) {#collapsable-nav {
+	background-color: green;
+}
+#collapsable-nav span {
+	color: white;
+}}
